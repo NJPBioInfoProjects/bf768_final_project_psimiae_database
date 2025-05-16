@@ -3,7 +3,7 @@
 ## Overview
 This project implements a searchable, version-controlled metabolic modeling database for the organism *Pseudomonas simiae* (P. simiae), developed as part of BF768 at Boston University. The system is designed to support gap-filling, flux balance analysis (FBA), and growth data visualization across multiple experimental conditions.
 
-The data originates from internal research at the Segrè Lab, which focuses on microbial metabolism and systems biology. *P. simiae* was grown in a 96-well plate under various media and growth conditions (e.g., glucose, sucrose, xylitol). Media compositions, biomass data, and model annotations were collected using tools like KBase, RASTtk, and Model SEED.
+The data originates from internal research at the Segrè Lab (PI: Dr. Ilija Dukovski) at Boston University, which focuses on microbial metabolism and systems biology. *P. simiae* was grown in a 96-well plate under various media and growth conditions (e.g., glucose, sucrose, xylitol). Media compositions, biomass data, and model annotations were collected using tools like KBase, RASTtk, and Model SEED.
 
 Simulated growth curves were generated using COMETS (Computation of Microbial Ecosystems in Time and Space), which models dynamic microbial interactions and metabolite fluxes in spatially structured environments. These simulations support insights into metabolic behavior and the effects of gap-filled reactions.
 
@@ -32,8 +32,10 @@ This application is designed for **internal lab use at the Segrè Lab.** Data ac
 ## Credentials and DB Setup
 For privacy and security, database connection strings and credentials were intentionally removed from this repo.
 
+## Data Origin
+The data used in this project originates from the Segrè Lab at Boston University, based on past experimental work with Pseudomonas simiae (P. simiae).
 
-## Authors
+## Collaborators
 - Vassanth Mathan
 - Aravind Panicker
 - Nicolas Petrunich
